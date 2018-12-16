@@ -30,6 +30,8 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('testingProject');
   });
 
+
+
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const compiled = fixture.debugElement.nativeElement;
