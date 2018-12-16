@@ -1,6 +1,6 @@
 # TestingProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.<br>
 This project is basic unit Testing project for Self use.
 
 ## Development server
