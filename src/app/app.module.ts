@@ -3,16 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { PersonComponent } from './person/person.component';
+import { RestApiComponent } from './rest-api/rest-api.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PersonComponent,
+    RestApiComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    PersonComponent
   ],
-  providers: [],
+  providers: [HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
