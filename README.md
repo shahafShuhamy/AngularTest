@@ -1,7 +1,9 @@
 # TestingProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.<br>
-This project is basic unit Testing project for Self use -> There is no point in running it to see HTML only unit tests.
+This project is basic unit Testing project for Self use -> There is no point in running it to see HTML only unit tests.<br>
+person is a services test component.<br>
+rest-api is a http service test component.<br>
 
 ## Development server
 
